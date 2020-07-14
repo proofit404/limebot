@@ -5,9 +5,6 @@
 A personal job board.
 
 <!--
- @todo #8 Add .gitignore file.
- -->
-<!--
  @todo #8 Add pyproject.toml file.
  -->
 <!--
