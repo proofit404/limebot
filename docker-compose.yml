@@ -1,0 +1,5 @@
+# @todo #17 Setup PostgreSQL database.
+# @todo #17 Setup RabbitMQ message broker.
+# @todo #17 Setup Redis key-value storage.
+# @todo #17 Setup Minio file storage.
+# @todo #17 Setup Vault secrets storage.
