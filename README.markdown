@@ -5,6 +5,9 @@
 A personal job board.
 
 <!--
+ @todo #8 Scripts to rule them all.
+ -->
+<!--
  @todo #8 Setup coverage.
  -->
 <!--
@@ -12,12 +15,6 @@ A personal job board.
  -->
 <!--
  @todo #8 Setup import linter.
- -->
-<!--
- @todo #8 Setup bellybutton.
- * Force entities to use attrs frozen.
- * Force private classes.
- * Deny validators and converters.
  -->
 <!--
  @todo #8 Add package.json file.

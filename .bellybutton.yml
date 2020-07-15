@@ -1,0 +1,3 @@
+# @todo #15 bellybutton should force entities to use attrs frozen.
+# @todo #15 bellybutton should force private classes.
+# @todo #15 bellybutton should deny validators and converters.
