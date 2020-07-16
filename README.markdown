@@ -8,6 +8,9 @@ A personal job board.
  @todo #8 Scripts to rule them all.
  -->
 <!--
+ @todo #8 Setup foreman.
+ -->
+<!--
  @todo #8 Setup coverage.
  -->
 <!--
