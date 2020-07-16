@@ -1,4 +1,18 @@
-# @todo #17 Setup PostgreSQL database.
+---
+version: "3.8"
+services:
+  database:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=lime
+      - POSTGRES_PASSWORD=lime
+      - POSTGRES_DB=lime
+    volumes:
+      - database_data:/var/lib/postgresql/data
+volumes:
+  database_data:
 # @todo #17 Setup RabbitMQ message broker.
 # @todo #17 Setup Redis key-value storage.
 # @todo #17 Setup Minio file storage.
