@@ -11,9 +11,20 @@ services:
       - POSTGRES_DB=lime
     volumes:
       - database_data:/var/lib/postgresql/data
+  message_broker:
+    image: rabbitmq:management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=lime
+      - RABBITMQ_DEFAULT_PASS=lime
+      - RABBITMQ_DEFAULT_VHOST=lime
+    volumes:
+      - message_broker_data:/var/lib/rabbitmq
 volumes:
   database_data:
-# @todo #17 Setup RabbitMQ message broker.
+  message_broker_data:
 # @todo #17 Setup Redis key-value storage.
 # @todo #17 Setup Minio file storage.
 # @todo #17 Setup Vault secrets storage.
