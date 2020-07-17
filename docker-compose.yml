@@ -22,9 +22,15 @@ services:
       - RABBITMQ_DEFAULT_VHOST=lime
     volumes:
       - message_broker_data:/var/lib/rabbitmq
+  cache:
+    image: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - cache_data:/data
 volumes:
   database_data:
   message_broker_data:
-# @todo #17 Setup Redis key-value storage.
+  cache_data:
 # @todo #17 Setup Minio file storage.
 # @todo #17 Setup Vault secrets storage.
