@@ -1,3 +1,4 @@
 #!/bin/bash -e
 
+poetry run pre-commit run -a
 poetry run pytest

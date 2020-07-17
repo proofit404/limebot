@@ -14,9 +14,6 @@ A personal job board.
  @todo #8 Setup coverage.
  -->
 <!--
- @todo #8 Setup pre-commit.
- -->
-<!--
  @todo #8 Setup import linter.
  -->
 <!--
