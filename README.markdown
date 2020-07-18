@@ -14,6 +14,39 @@ A personal job board.
  @todo #8 Setup import linter.
  -->
 <!--
+ @todo #8 Setup pyupgrade.
+ -->
+<!--
+ @todo #8 Setup reorder python imports.
+ -->
+<!--
+ @todo #8 Setup docformatter.
+ -->
+<!--
+ @todo #8 Setup black.
+ -->
+<!--
+ @todo #8 Setup flake8.
+ -->
+<!--
+ @todo #8 Setup bandit.
+ -->
+<!--
+ @todo #8 Setup remarklint.
+ -->
+<!--
+ @todo #8 Setup eslist.
+ -->
+<!--
+ @todo #8 Setup xenon.
+ -->
+<!--
+ @todo #8 Setup jscpd.
+ -->
+<!--
+ @todo #8 Setup yamllint.
+ -->
+<!--
  @todo #8 Add package.json file.
  -->
 <!--
