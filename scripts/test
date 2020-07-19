@@ -1,5 +1,6 @@
 #!/bin/bash -e
 
 poetry run pre-commit run -a
+poetry run flake8 .
 poetry run coverage run -m pytest
 poetry run coverage report --fail-under 100

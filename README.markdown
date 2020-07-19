@@ -26,9 +26,6 @@ A personal job board.
  @todo #8 Setup black.
  -->
 <!--
- @todo #8 Setup flake8.
- -->
-<!--
  @todo #8 Setup bandit.
  -->
 <!--
