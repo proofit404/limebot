@@ -44,9 +44,6 @@ A personal job board.
  @todo #8 Setup yamllint.
  -->
 <!--
- @todo #8 Add package.json file.
- -->
-<!--
  @todo #8 Setup docker-compose.
  -->
 <!--
