@@ -23,9 +23,6 @@ A personal job board.
  @todo #8 Setup docformatter.
  -->
 <!--
- @todo #8 Setup black.
- -->
-<!--
  @todo #8 Setup bandit.
  -->
 <!--
