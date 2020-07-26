@@ -35,9 +35,6 @@ A personal job board.
  @todo #8 Setup xenon.
  -->
 <!--
- @todo #8 Setup jscpd.
- -->
-<!--
  @todo #8 Setup yamllint.
  -->
 <!--

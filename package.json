@@ -1,5 +1,8 @@
 {
     "name": "dependencies",
     "author": "Artem Malyshev",
-    "private": true
+    "private": true,
+    "devDependencies": {
+        "jscpd": "3.2.1"
+    }
 }

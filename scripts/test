@@ -6,3 +6,4 @@ poetry run pre-commit run -a
 poetry run black --check .
 poetry run flake8 .
 poetry run bellybutton lint
+npx jscpd src/
