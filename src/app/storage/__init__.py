@@ -1,2 +1,2 @@
 # -*- coding: utf-8 -*-
-"""Cache layer."""
+"""Data storage."""
