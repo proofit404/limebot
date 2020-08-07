@@ -1,3 +1,4 @@
+---
 settings:
 default_settings:
 # @todo #15 bellybutton should force entities to use attrs frozen.

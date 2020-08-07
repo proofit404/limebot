@@ -6,5 +6,6 @@ poetry run pre-commit run -a
 poetry run black --check .
 poetry run flake8 .
 poetry run bellybutton lint
+poetry run yamllint --strict .
 npx jscpd src/
 npx eslint --ext .js,.json --ignore-path .gitignore .

@@ -32,9 +32,6 @@ A personal job board.
  @todo #8 Setup xenon.
  -->
 <!--
- @todo #8 Setup yamllint.
- -->
-<!--
  @todo #8 Setup docker-compose.
  -->
 <!--
