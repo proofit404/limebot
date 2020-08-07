@@ -7,3 +7,4 @@ poetry run black --check .
 poetry run flake8 .
 poetry run bellybutton lint
 npx jscpd src/
+npx eslint --ext .js,.json --ignore-path .gitignore .

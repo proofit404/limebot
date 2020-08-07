@@ -3,6 +3,8 @@
     "author": "Artem Malyshev",
     "private": true,
     "devDependencies": {
+        "eslint": "7.6.0",
+        "eslint-plugin-json": "2.1.2",
         "jscpd": "3.2.1"
     }
 }

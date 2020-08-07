@@ -29,9 +29,6 @@ A personal job board.
  @todo #8 Setup remarklint.
  -->
 <!--
- @todo #8 Setup eslist.
- -->
-<!--
  @todo #8 Setup xenon.
  -->
 <!--
