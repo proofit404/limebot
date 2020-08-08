@@ -23,9 +23,6 @@ A personal job board.
  @todo #8 Setup docformatter.
  -->
 <!--
- @todo #8 Setup bandit.
- -->
-<!--
  @todo #8 Setup remarklint.
  -->
 <!--
