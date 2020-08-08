@@ -3,6 +3,7 @@
 poetry run coverage run -m pytest
 poetry run coverage report --fail-under 100
 poetry run pre-commit run -a
+git ls-files '*.py' | xargs poetry run pyupgrade --py38-plus
 poetry run black --check .
 poetry run flake8 .
 poetry run bellybutton lint

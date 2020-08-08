@@ -2,7 +2,6 @@
 max-line-length = 88
 eradicate-aggressive = True
 ban-relative-imports = True
-accept-encodings = utf-8
 exclude =
   node_modules
 per-file-ignores =
