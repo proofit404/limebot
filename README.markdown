@@ -14,9 +14,6 @@ A personal job board.
  @todo #8 Setup import linter.
  -->
 <!--
- @todo #8 Setup reorder python imports.
- -->
-<!--
  @todo #8 Setup remarklint.
  -->
 <!--

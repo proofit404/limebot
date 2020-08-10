@@ -1,10 +1,15 @@
-#!/bin/bash -e
+#!/bin/bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
 
 poetry run coverage run -m pytest
 poetry run coverage report --fail-under 100
 poetry run pre-commit run -a
 git ls-files '*.py' | xargs poetry run pyupgrade --py38-plus
-git ls-files '*.py' | xargs docformatter --wrap-summaries 88 --wrap-descriptions 88 --blank --check
+git ls-files '*.py' | xargs poetry run reorder-python-imports --application-directories=.:src
+git ls-files '*.py' | xargs poetry run docformatter --wrap-summaries 88 --wrap-descriptions 88 --blank --check
 poetry run black --check .
 poetry run flake8 .
 poetry run bellybutton lint
