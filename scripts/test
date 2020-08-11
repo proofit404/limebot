@@ -18,3 +18,4 @@ poetry run xenon --max-absolute A --max-modules A --max-average A --ignore node_
 poetry run yamllint --strict .
 npx jscpd src/
 npx eslint --ext .js,.json --ignore-path .gitignore .
+npx remark --frail .
