@@ -12,6 +12,5 @@ class Index:
         schema = XMLSchema("src/app/web/xsd/index.xsd")
         data = {"title": "Lime", "message": "Hello world."}
         xml = schema.encode(data)
-        # @todo #114 Title & message are absent in the output HTML document.
         html = tostring(transform(fromstring(etree_tostring(xml))))
         return html

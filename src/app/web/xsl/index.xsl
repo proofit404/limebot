@@ -7,13 +7,13 @@
       <head>
         <meta charset="UTF-8" />
         <title>
-	  <xsl:value-of select="/title/text()" />
-	</title>
+          <xsl:value-of select="title" />
+        </title>
       </head>
       <body>
         <p>
-	  <xsl:value-of select="/message/text()" />
-	</p>
+          <xsl:value-of select="message" />
+        </p>
       </body>
     </html>
   </xsl:template>
