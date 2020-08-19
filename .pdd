@@ -1,2 +1,4 @@
 --source=.
 --verbose
+--exclude=poetry.lock
+--exclude=package-lock.json
