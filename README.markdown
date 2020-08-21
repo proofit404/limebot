@@ -8,6 +8,11 @@ A personal job board.
  @todo #8 Scripts to rule them all.
  -->
 <!--
+ @todo #132 Run PDD gem locally with output redirected to
+  /dev/null. This will ensure we have all puzzles written
+  correctly. This will validate .pdd configuration file also.
+ -->
+<!--
  @todo #8 Setup foreman.
  -->
 <!--
