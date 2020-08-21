@@ -483,11 +483,11 @@ version = "0.18.2"
 
 [[package]]
 category = "main"
-description = "A class-based toolkit designed with OOP in mind."
+description = "A classy toolkit designed with OOP in mind."
 name = "generics"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
-version = "1.0.0"
+version = "1.1.0"
 
 [[package]]
 category = "dev"
@@ -1100,7 +1100,7 @@ pathspec = ">=0.5.3"
 pyyaml = "*"
 
 [metadata]
-content-hash = "58509a1928d88b8ec684ec5270874ecc4fc4bcfd138b255dd3f808feee12b87a"
+content-hash = "16906db1025d12a92bab80c946dc2fb8380995114041982665121f292ba21d7d"
 lock-version = "1.0"
 python-versions = "3.8.2"
 
@@ -1300,8 +1300,8 @@ future = [
     {file = "future-0.18.2.tar.gz", hash = "sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d"},
 ]
 generics = [
-    {file = "generics-1.0.0-py2.py3-none-any.whl", hash = "sha256:824b55533bb0494ea9d762f3c63cce17b2b7256a688aebf34a733fd7ed96e6ee"},
-    {file = "generics-1.0.0.tar.gz", hash = "sha256:d6a6d2fb6444b7822911a929f33aa32df61fd773d9a8d29d5fd92e97c1181e30"},
+    {file = "generics-1.1.0-py2.py3-none-any.whl", hash = "sha256:dd1d78b0b0ca20a0ea460273c6123e67ab28d35e85b735bed84bc28c64b6d96f"},
+    {file = "generics-1.1.0.tar.gz", hash = "sha256:bce155537a8c297a980833cb0088a617633f7b541dbf89a46bd152035da83c5f"},
 ]
 gitdb = [
     {file = "gitdb-4.0.5-py3-none-any.whl", hash = "sha256:91f36bfb1ab7949b3b40e23736db18231bf7593edada2ba5c3a174a7b23657ac"},

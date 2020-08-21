@@ -1,8 +1,7 @@
-from app.web.pages.index import Index
+from app.implementations import IndexPage
 
 
 def test_index_render():
     """The `render` method of the `Index` class should return HTML."""
-    index = Index()
-    html = index.render()
+    html = IndexPage.render()
     assert html.startswith(b"<html")

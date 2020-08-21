@@ -1,15 +1,17 @@
-from lxml.etree import Element
-from lxml.etree import tostring
-from lxml.etree import XML
-from lxml.etree import XSLT
-from xmlschema import XMLSchema
+from attr import attrib
+from attr import attrs
+from generics import private
 
 
-class Index:
+@private
+@attrs(frozen=True)
+class IndexPage:
+
+    engine = attrib()
+
     def render(self):
-        transform = XSLT(XML(open("src/app/web/xsl/index.xsl").read()))
-        schema = XMLSchema("src/app/web/xsd/index.xsd")
-        data = {"title": "Lime", "message": "Hello world."}
-        xml = schema.encode(data, etree_element_class=Element)
-        html = tostring(transform(xml))
-        return html
+        return self.engine.process(
+            "src/app/web/xsl/index.xsl",
+            "src/app/web/xsd/index.xsd",
+            {"title": "Lime", "message": "Hello world."},
+        )
