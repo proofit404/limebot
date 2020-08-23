@@ -11,7 +11,5 @@ class IndexPage:
 
     def render(self):
         return self.engine.process(
-            "src/app/web/xsl/index.xsl",
-            "src/app/web/xsd/index.xsd",
-            {"title": "Lime", "message": "Hello world."},
+            "index.xsl", "index.xsd", {"title": "Lime", "message": "Hello world."}
         )
