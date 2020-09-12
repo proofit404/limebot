@@ -1,6 +1,5 @@
 from attr import attrib
 from attr import attrs
-from attr import Factory
 from generics import private
 from lxml.etree import Element
 from lxml.etree import tostring
@@ -13,22 +12,26 @@ from xmlschema import XMLSchema
 @attrs(frozen=True)
 class Engine:
 
-    schemes = attrib(default=Factory(dict))
-    styles = attrib(default=Factory(dict))
+    schemes = attrib()
+    styles = attrib()
 
     def process(self, style, schema, data):
-        xml = self.schemes[schema].encode(data, etree_element_class=Element)
-        html = tostring(self.styles[style](xml))
+        xsd = self.schemes.get(schema)
+        xslt = self.styles.get(style)
+        xml = xsd.encode(data, etree_element_class=Element)
+        html = tostring(xslt(xml))
         return html
 
 
+@private
+@attrs(frozen=True)
 class Registry:
-    def __init__(self, function, directory, data):
-        self.function = function
-        self.directory = directory
-        self.data = data
 
-    def __getitem__(self, key):
+    function = attrib()
+    directory = attrib()
+    data = attrib()
+
+    def get(self, key):
         # @todo #130 Do not accept arbitrary relative paths. We
         #  should know the path of directories we relies on. Join
         #  base path of the file with directory constant.
