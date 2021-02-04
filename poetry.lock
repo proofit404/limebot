@@ -211,7 +211,7 @@ python-versions = "*"
 
 [[package]]
 name = "dramatiq"
-version = "1.8.1"
+version = "1.10.0"
 description = "Background Processing for Python 3."
 category = "main"
 optional = false
@@ -222,8 +222,8 @@ pika = {version = ">=1.0,<2.0", optional = true, markers = "extra == \"rabbitmq\
 prometheus-client = ">=0.2"
 
 [package.extras]
-all = ["watchdog-gevent (==0.1)", "watchdog (>=0.8,<0.9)", "pylibmc (>=1.5,<2.0)", "redis (>=2.0,<4.0)", "pika (>=1.0,<2.0)"]
-dev = ["watchdog-gevent (==0.1)", "watchdog (>=0.8,<0.9)", "pylibmc (>=1.5,<2.0)", "redis (>=2.0,<4.0)", "pika (>=1.0,<2.0)", "alabaster", "sphinx (<1.8)", "sphinxcontrib-napoleon", "flake8", "flake8-bugbear", "flake8-quotes", "isort", "bumpversion", "hiredis", "twine", "wheel", "pytest (<4)", "pytest-benchmark", "pytest-cov", "tox"]
+all = ["pika (>=1.0,<2.0)", "watchdog-gevent (==0.1)", "watchdog (>=0.8,<0.9)", "redis (>=2.0,<4.0)", "pylibmc (>=1.5,<2.0)"]
+dev = ["pika (>=1.0,<2.0)", "watchdog-gevent (==0.1)", "watchdog (>=0.8,<0.9)", "redis (>=2.0,<4.0)", "pylibmc (>=1.5,<2.0)", "alabaster", "sphinx (<1.8)", "sphinxcontrib-napoleon", "flake8", "flake8-bugbear", "flake8-quotes", "isort", "bumpversion", "hiredis", "twine", "wheel", "pytest (<4)", "pytest-benchmark", "pytest-cov", "tox"]
 memcached = ["pylibmc (>=1.5,<2.0)"]
 rabbitmq = ["pika (>=1.0,<2.0)"]
 redis = ["redis (>=2.0,<4.0)"]
@@ -1090,7 +1090,7 @@ pyyaml = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.8.2"
-content-hash = "dcfa06b55d9b595453a0728898b4fb10c9df059acb1a75272365d3ea0a7e4bac"
+content-hash = "4947a1306a7614e8ca8ea38a4d32e26152d9424539800bb44da297e650fd8076"
 
 [metadata.files]
 appdirs = [
@@ -1199,8 +1199,8 @@ docopt = [
     {file = "docopt-0.6.2.tar.gz", hash = "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"},
 ]
 dramatiq = [
-    {file = "dramatiq-1.8.1-py3-none-any.whl", hash = "sha256:ad6f3bc958b9a2cfb4246772726ddc863ecc610e48dc8a5c0efa6accd5ea871f"},
-    {file = "dramatiq-1.8.1.tar.gz", hash = "sha256:36302574963fb9bfaed871c2b0d7fbffbcfe9fadaecc8938540901f8aea17eb8"},
+    {file = "dramatiq-1.10.0-py3-none-any.whl", hash = "sha256:d3f629ff01e1da67f46579cba549e115fbe0b32a31fa52c53f6c322a4456566a"},
+    {file = "dramatiq-1.10.0.tar.gz", hash = "sha256:ce23c4520b50785414aca088c25c6a2274512f67ec468042aee0c379ee1d700e"},
 ]
 elementpath = [
     {file = "elementpath-2.0.0-py3-none-any.whl", hash = "sha256:6107d2f70aa571ef5b081ed99da354bc066c1834815276b060f7496d2bd80dcf"},
