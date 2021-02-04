@@ -1077,11 +1077,11 @@ elementpath = ">=2.0.0,<2.1.0"
 
 [[package]]
 name = "yamllint"
-version = "1.24.2"
+version = "1.26.0"
 description = "A linter for YAML files."
 category = "dev"
 optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+python-versions = ">=3.5.*"
 
 [package.dependencies]
 pathspec = ">=0.5.3"
@@ -1090,7 +1090,7 @@ pyyaml = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.8.2"
-content-hash = "9d7f55ed443375daba0a46e025f06661a153806d8387efd1abdd72a5608229d8"
+content-hash = "dcfa06b55d9b595453a0728898b4fb10c9df059acb1a75272365d3ea0a7e4bac"
 
 [metadata.files]
 appdirs = [
@@ -1648,6 +1648,6 @@ xmlschema = [
     {file = "xmlschema-1.2.3.tar.gz", hash = "sha256:c981db622f9f00bffcb61648ab9a6f21d6655cfb66ad994918b079705b9b9a34"},
 ]
 yamllint = [
-    {file = "yamllint-1.24.2-py2.py3-none-any.whl", hash = "sha256:ad3b0d30317dca005d7af99ff27248d459cae2d931a2ff06a134b67bcd405b30"},
-    {file = "yamllint-1.24.2.tar.gz", hash = "sha256:40b68de6bacdccec1585dbd54072731b10da7fc2f9cfd96517a71f066208b61f"},
+    {file = "yamllint-1.26.0-py2.py3-none-any.whl", hash = "sha256:8a5f8e442f49309eaf3e9d7232ce76f2fc8026f5c0c0b164b83f33fed1399637"},
+    {file = "yamllint-1.26.0.tar.gz", hash = "sha256:b0e4c89985c7f5f8451c2eb8c67d804d10ac13a4abe031cbf49bdf3465d01087"},
 ]
