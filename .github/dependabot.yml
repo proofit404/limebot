@@ -6,11 +6,11 @@ updates:
       interval: daily
     reviewers:
       - proofit404
-    labels:
+    labels: []
   - package-ecosystem: npm
     directory: /
     schedule:
       interval: daily
     reviewers:
       - proofit404
-    labels:
+    labels: []
