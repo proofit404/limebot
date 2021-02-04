@@ -18,7 +18,7 @@ generics = "1.1.0"
 lxml = "4.5.2"
 marshmallow = "3.5.1"
 requests = "2.25.1"
-stories = "0.14.0"
+stories = "4.0.0"
 wtforms = "2.2.1"
 xmlschema = "1.2.3"
 

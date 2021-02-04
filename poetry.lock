@@ -934,14 +934,11 @@ pbr = ">=2.0.0,<2.1.0 || >2.1.0"
 
 [[package]]
 name = "stories"
-version = "0.14.0"
+version = "4.0.0"
 description = "Define a user story in the business transaction DSL"
 category = "main"
 optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
-
-[package.extras]
-mkdocs = ["mkdocs", "mkdocs-material"]
+python-versions = ">=3.7,<3.10"
 
 [[package]]
 name = "tokenize-rt"
@@ -1090,7 +1087,7 @@ pyyaml = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.8.2"
-content-hash = "2aac47fb9b90be1d32f84650733c57533cb1a6d2d25947411ac9e07ca4b50ca7"
+content-hash = "9ab87835ed3559c0daeb578711b88566e95974bfe92a8c64a0926b8543ea4267"
 
 [metadata.files]
 appdirs = [
@@ -1569,8 +1566,8 @@ stevedore = [
     {file = "stevedore-3.2.0.tar.gz", hash = "sha256:38791aa5bed922b0a844513c5f9ed37774b68edc609e5ab8ab8d8fe0ce4315e5"},
 ]
 stories = [
-    {file = "stories-0.14.0-py2.py3-none-any.whl", hash = "sha256:e6048448ec5acc1e7655d7fca89c32b88a0afe6e57a4910c60d7583f1311abbd"},
-    {file = "stories-0.14.0.tar.gz", hash = "sha256:6eb51c287bc28a0f88607443a0076b05798a030af118315c1e742f2469ee9afe"},
+    {file = "stories-4.0.0-py3-none-any.whl", hash = "sha256:6c61fdba52976efd0b0ebc4d69148c5c43bd6c08e4cade776448a1097df34386"},
+    {file = "stories-4.0.0.tar.gz", hash = "sha256:a7d315d949ae9cde4b7efffc88bc800dd3b9ec4508749131f8ef9990107803d2"},
 ]
 tokenize-rt = [
     {file = "tokenize_rt-4.0.0-py2.py3-none-any.whl", hash = "sha256:c47d3bd00857c24edefccdd6dc99c19d4ceed77c5971a3e2fac007fb0c02e39d"},
