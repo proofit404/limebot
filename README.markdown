@@ -37,9 +37,6 @@ A personal job board.
  @todo #8 Setup Rultor.
  -->
 <!--
- @todo #8 Setup DependaBot.
- -->
-<!--
  @todo #121 Setup dbmate.
  -->
 <!--
