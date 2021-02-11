@@ -19,7 +19,7 @@ lxml = "4.5.2"
 marshmallow = "3.5.1"
 requests = "2.25.1"
 stories = "4.0.0"
-wtforms = "2.2.1"
+wtforms = "2.3.3"
 xmlschema = "1.2.3"
 
 [tool.poetry.dev-dependencies]
