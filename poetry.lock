@@ -848,7 +848,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [[package]]
 name = "radon"
-version = "4.2.0"
+version = "4.3.2"
 description = "Code Metrics in Python"
 category = "dev"
 optional = false
@@ -856,9 +856,12 @@ python-versions = "*"
 
 [package.dependencies]
 colorama = {version = ">=0.4.1", markers = "python_version > \"3.4\""}
-flake8-polyfill = "*"
+flake8-polyfill = {version = "*", optional = true, markers = "extra == \"flake8\""}
 future = "*"
 mando = ">=0.6,<0.7"
+
+[package.extras]
+flake8 = ["flake8-polyfill"]
 
 [[package]]
 name = "regex"
@@ -1055,7 +1058,7 @@ locale = ["Babel (>=1.3)"]
 
 [[package]]
 name = "xenon"
-version = "0.7.0"
+version = "0.7.1"
 description = "Monitor code metrics for Python on your CI server"
 category = "dev"
 optional = false
@@ -1063,7 +1066,7 @@ python-versions = "*"
 
 [package.dependencies]
 PyYAML = ">=4.2b1,<6.0"
-radon = ">=4,<5"
+radon = {version = ">=4,<5", extras = ["flake8"]}
 requests = ">=2.0,<3.0"
 
 [[package]]
@@ -1092,7 +1095,7 @@ pyyaml = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.8.2"
-content-hash = "9726644d196806c9cc277de2a47c97a6fc599c4a9ff380be0b5d33b7f2ff2258"
+content-hash = "17a9e0ab9046b152da50509eb8b57af6d8cc811b3827661e4e5ed7161abb8d09"
 
 [metadata.files]
 appdirs = [
@@ -1520,8 +1523,8 @@ pyyaml = [
     {file = "PyYAML-5.3.1.tar.gz", hash = "sha256:b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d"},
 ]
 radon = [
-    {file = "radon-4.2.0-py2.py3-none-any.whl", hash = "sha256:215e42c8748b5ca8ddf7c061831600b9e73e9c48770a81eeaaeeb066697aee15"},
-    {file = "radon-4.2.0.tar.gz", hash = "sha256:b73f6f469c15c9616e0f7ce12080a9ecdee9f2335bdbb5ccea1f2bae26e8d20d"},
+    {file = "radon-4.3.2-py2.py3-none-any.whl", hash = "sha256:b991de491eb2edbc2aac8f5f7ebf02b799852f076fa5a73fedf79d144d85e37e"},
+    {file = "radon-4.3.2.tar.gz", hash = "sha256:758b3ab345aa86e95f642713612a57da7c7da6d552c4dbfbe397a67601ace7dd"},
 ]
 regex = [
     {file = "regex-2020.7.14-cp27-cp27m-win32.whl", hash = "sha256:e46d13f38cfcbb79bfdb2964b0fe12561fe633caf964a77a5f8d4e45fe5d2ef7"},
@@ -1641,8 +1644,8 @@ wtforms = [
     {file = "WTForms-2.3.3.tar.gz", hash = "sha256:81195de0ac94fbc8368abbaf9197b88c4f3ffd6c2719b5bf5fc9da744f3d829c"},
 ]
 xenon = [
-    {file = "xenon-0.7.0-py2.py3-none-any.whl", hash = "sha256:83e98f67b7077c95c25c3402aea6203dd2ed6256708b76ed9751e9dbf1aba125"},
-    {file = "xenon-0.7.0.tar.gz", hash = "sha256:5e6433c9297d965bf666256a0a030b6e13660ab87680220c4eb07241f101625b"},
+    {file = "xenon-0.7.1-py2.py3-none-any.whl", hash = "sha256:33d807ef805a2ed854adfcc7cc998398d5c0626a5ad443e52684b998a4dd4aa3"},
+    {file = "xenon-0.7.1.tar.gz", hash = "sha256:38bf283135f0636355ecf6054b6f37226af12faab152161bda1a4f9e4dc5b701"},
 ]
 xmlschema = [
     {file = "xmlschema-1.2.3-py3-none-any.whl", hash = "sha256:aace96e9c0fda70a0156491f9fadc51b7b8fe80d6a532078c661f84910800b94"},
