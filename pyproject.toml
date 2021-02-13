@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "lime"
+name = "limebot"
 version = "0.0.1dev0"
-description = "A personal job board."
+description = "A microtasking bot integrated with third-party freelancing platforms."
 authors = ["Artem Malyshev <proofit404@gmail.com>"]
 packages = [
   { include = "app", from = "src" },

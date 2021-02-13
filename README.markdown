@@ -1,8 +1,8 @@
 # Lime
 
-[![0pdd](http://www.0pdd.com/svg?name=proofit404/lime)](http://www.0pdd.com/p?name=proofit404/lime)
+[![0pdd](http://www.0pdd.com/svg?name=proofit404/limebot)](http://www.0pdd.com/p?name=proofit404/limebot)
 
-A personal job board.
+A microtasking bot integrated with third-party freelancing platforms.
 
 <!--
  @todo #8 Scripts to rule them all.

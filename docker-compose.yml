@@ -6,9 +6,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - POSTGRES_USER=lime
-      - POSTGRES_PASSWORD=lime
-      - POSTGRES_DB=lime
+      - POSTGRES_USER=limebot
+      - POSTGRES_PASSWORD=limebot
+      - POSTGRES_DB=limebot
     volumes:
       - database_data:/var/lib/postgresql/data
   message_broker:
@@ -17,9 +17,9 @@ services:
       - "5672:5672"
       - "15672:15672"
     environment:
-      - RABBITMQ_DEFAULT_USER=lime
-      - RABBITMQ_DEFAULT_PASS=lime
-      - RABBITMQ_DEFAULT_VHOST=lime
+      - RABBITMQ_DEFAULT_USER=limebot
+      - RABBITMQ_DEFAULT_PASS=limebot
+      - RABBITMQ_DEFAULT_VHOST=limebot
     volumes:
       - message_broker_data:/var/lib/rabbitmq
   cache:
