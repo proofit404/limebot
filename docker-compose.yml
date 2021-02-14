@@ -1,7 +1,7 @@
 ---
 version: "3.8"
 services:
-  # @todo #169 Create application container. This image should be
+  # @todo #192 Create application container. This image should be
   #  self-contain installation which is able to run all scripts to
   #  rule them all. Things like documentation generator & local PDD
   #  tool should be available inside the image.

@@ -4,7 +4,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-# @todo #169 Static analysis tools should be run in a separate
+# @todo #188 Static analysis tools should be run in a separate
 #  script. `check` and `lint` scripts should be created.
 poetry run coverage run -m pytest
 poetry run coverage report --fail-under 100
