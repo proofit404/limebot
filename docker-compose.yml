@@ -1,36 +1,22 @@
 ---
 version: "3.8"
 services:
+  # @todo #169 Create application container. This image should be
+  #  self-contain installation which is able to run all scripts to
+  #  rule them all. Things like documentation generator & local PDD
+  #  tool should be available inside the image.
   database:
     image: postgres
-    ports:
-      - "5432:5432"
-    environment:
-      - POSTGRES_USER=limebot
-      - POSTGRES_PASSWORD=limebot
-      - POSTGRES_DB=limebot
     volumes:
       - database_data:/var/lib/postgresql/data
-  message_broker:
-    image: rabbitmq:management
-    ports:
-      - "5672:5672"
-      - "15672:15672"
     environment:
-      - RABBITMQ_DEFAULT_USER=limebot
-      - RABBITMQ_DEFAULT_PASS=limebot
-      - RABBITMQ_DEFAULT_VHOST=limebot
-    volumes:
-      - message_broker_data:/var/lib/rabbitmq
+      - POSTGRES_DB=limebot
+      - POSTGRES_USER=limebot
+      - POSTGRES_PASSWORD=limebot
   cache:
     image: redis
-    ports:
-      - "6379:6379"
     volumes:
       - cache_data:/data
 volumes:
   database_data:
-  message_broker_data:
   cache_data:
-# @todo #17 Setup Minio file storage.
-# @todo #17 Setup Vault secrets storage.

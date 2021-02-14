@@ -13,9 +13,6 @@ A microtasking bot integrated with third-party freelancing platforms.
   correctly. This will validate .pdd configuration file also.
  -->
 <!--
- @todo #8 Setup foreman.
- -->
-<!--
  @todo #8 Setup import linter.
  -->
 <!--
@@ -38,7 +35,4 @@ A microtasking bot integrated with third-party freelancing platforms.
  -->
 <!--
  @todo #121 Setup dbmate.
- -->
-<!--
- @todo #121 Install psycopg2 library.
  -->

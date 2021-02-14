@@ -1,2 +1,2 @@
-"""Flask views."""
-# @todo #60 Create flask app factory function.
+"""HTTP views."""
+# @todo #169 Create aiohttp application.
