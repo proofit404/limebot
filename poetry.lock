@@ -252,11 +252,11 @@ toml = ["toml"]
 
 [[package]]
 name = "dependencies"
-version = "1.0.1"
+version = "6.0.0"
 description = "Dependency Injection for Humans"
 category = "main"
 optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+python-versions = ">=3.6,<3.10"
 
 [[package]]
 name = "distlib"
@@ -1131,7 +1131,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.9.1"
-content-hash = "7ebcc605f6ddc8989c1405a10114c60a2793ee6b1bbc7b65939b2fca7b567c8c"
+content-hash = "e60545386d4f35c5216e4b27d306b08e392dc4c8dca61b09fffd7120323e91a2"
 
 [metadata.files]
 aiodns = [
@@ -1395,8 +1395,8 @@ coverage = [
     {file = "coverage-5.0.4.tar.gz", hash = "sha256:1b60a95fc995649464e0cd48cecc8288bac5f4198f21d04b8229dc4097d76823"},
 ]
 dependencies = [
-    {file = "dependencies-1.0.1-py2.py3-none-any.whl", hash = "sha256:ffe1a939eb244bcdf89542ce219d85de1147f45e56e659201e04fde36bfc4b30"},
-    {file = "dependencies-1.0.1.tar.gz", hash = "sha256:a224ef54538c726d38111126d025065a556a08945e35231de5926e6daaf88fa4"},
+    {file = "dependencies-6.0.0-py3-none-any.whl", hash = "sha256:3602bafffbc5a380c249e29ede272daa778b1ba16e8a4504b213816a7222d6ae"},
+    {file = "dependencies-6.0.0.tar.gz", hash = "sha256:dc492cb38449aa2820934b77b0776ebfb0e333b5ac3b275a81b9c7b87638af2f"},
 ]
 distlib = [
     {file = "distlib-0.3.1-py2.py3-none-any.whl", hash = "sha256:8c09de2c67b3e7deef7184574fc060ab8a793e7adbb183d942c389c8b13c52fb"},
