@@ -3,7 +3,7 @@
     "author": "Artem Malyshev",
     "private": true,
     "devDependencies": {
-        "eslint": "7.19.0",
+        "eslint": "7.20.0",
         "eslint-plugin-json": "2.1.2",
         "jscpd": "3.3.23",
         "remark-cli": "9.0.0",
