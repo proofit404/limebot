@@ -886,7 +886,7 @@ python-versions = "*"
 
 [[package]]
 name = "reorder-python-imports"
-version = "2.3.5"
+version = "2.4.0"
 description = "Tool for reordering python imports"
 category = "dev"
 optional = false
@@ -1131,7 +1131,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.9.1"
-content-hash = "e91d2b160fb9e9f32c609d853a6444686285d416a37c1634aacb85583340a3d2"
+content-hash = "1da35e3c9a6f6f0caab159fbb34ec01fdba672c9381afa31e226960ff01f5b4f"
 
 [metadata.files]
 aiodns = [
@@ -1830,8 +1830,8 @@ regex = [
     {file = "regex-2020.11.13.tar.gz", hash = "sha256:83d6b356e116ca119db8e7c6fc2983289d87b27b3fac238cfe5dca529d884562"},
 ]
 reorder-python-imports = [
-    {file = "reorder_python_imports-2.3.5-py2.py3-none-any.whl", hash = "sha256:6e8d3baba68c409ec87242757cf579a7ad2b133d1efed498be987b97ee385ac3"},
-    {file = "reorder_python_imports-2.3.5.tar.gz", hash = "sha256:7c46593d39899e3fb249248b448bde93ee7417889904f015c0c5a738c23fd0e0"},
+    {file = "reorder_python_imports-2.4.0-py2.py3-none-any.whl", hash = "sha256:995a2a93684af31837f30cf2bcddce2e7eb17f0d2d69c9905da103baf8cec42b"},
+    {file = "reorder_python_imports-2.4.0.tar.gz", hash = "sha256:9a9e7774d66e9b410b619f934e8206a63dce5be26bd894f5006eb764bba6a26d"},
 ]
 requests = [
     {file = "requests-2.15.1-py2.py3-none-any.whl", hash = "sha256:ff753b2196cd18b1bbeddc9dcd5c864056599f7a7d9a4fb5677e723efa2b7fb9"},
