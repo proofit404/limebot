@@ -287,11 +287,14 @@ python-versions = "*"
 
 [[package]]
 name = "elementpath"
-version = "2.0.5"
+version = "2.1.4"
 description = "XPath 1.0/2.0 parsers and selectors for ElementTree and lxml"
 category = "main"
 optional = false
 python-versions = ">=3.6"
+
+[package.extras]
+dev = ["tox", "coverage", "lxml", "xmlschema (>=1.2.3,<1.3.0)", "sphinx"]
 
 [[package]]
 name = "eradicate"
@@ -1095,14 +1098,18 @@ requests = ">=2.0,<3.0"
 
 [[package]]
 name = "xmlschema"
-version = "1.2.3"
+version = "1.5.1"
 description = "An XML Schema validator and decoder"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=3.6"
 
 [package.dependencies]
-elementpath = ">=2.0.0,<2.1.0"
+elementpath = ">=2.1.2,<3.0.0"
+
+[package.extras]
+codegen = ["elementpath (>=2.1.2,<3.0.0)", "jinja2"]
+dev = ["tox", "coverage", "lxml", "elementpath (>=2.1.2,<3.0.0)", "memory-profiler", "sphinx", "sphinx-rtd-theme", "jinja2"]
 
 [[package]]
 name = "yamllint"
@@ -1131,7 +1138,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.9.1"
-content-hash = "c96d625653a1f519e5f2f53fbde8b2f586c97898256d4e4c0c14bd9328da58a9"
+content-hash = "31ce78841802a94c2cdca2262933d4f8774eac8d977b5e00e9e22f5c7f9f05e4"
 
 [metadata.files]
 aiodns = [
@@ -1409,8 +1416,8 @@ docopt = [
     {file = "docopt-0.6.2.tar.gz", hash = "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"},
 ]
 elementpath = [
-    {file = "elementpath-2.0.5-py3-none-any.whl", hash = "sha256:1dd545ed17692f903cc2d90ce721f924a5e8d657ad8b9ff639cd4512c633010b"},
-    {file = "elementpath-2.0.5.tar.gz", hash = "sha256:d9612efed8ec2a5611f8fac90111e4c49464084eae9087028e63ac4b0b99cd90"},
+    {file = "elementpath-2.1.4-py3-none-any.whl", hash = "sha256:ce7272dd3941b5245b62d4bb0ace0fa8a0ba932a54afe3cf0299e0593d2ae3f5"},
+    {file = "elementpath-2.1.4.tar.gz", hash = "sha256:326643aca7beff0864d022cd591736b8550a70fccafd67a89198166baed1c2c4"},
 ]
 eradicate = [
     {file = "eradicate-2.0.0.tar.gz", hash = "sha256:27434596f2c5314cc9b31410c93d8f7e8885747399773cd088d3adea647a60c8"},
@@ -1965,8 +1972,8 @@ xenon = [
     {file = "xenon-0.7.1.tar.gz", hash = "sha256:38bf283135f0636355ecf6054b6f37226af12faab152161bda1a4f9e4dc5b701"},
 ]
 xmlschema = [
-    {file = "xmlschema-1.2.3-py3-none-any.whl", hash = "sha256:aace96e9c0fda70a0156491f9fadc51b7b8fe80d6a532078c661f84910800b94"},
-    {file = "xmlschema-1.2.3.tar.gz", hash = "sha256:c981db622f9f00bffcb61648ab9a6f21d6655cfb66ad994918b079705b9b9a34"},
+    {file = "xmlschema-1.5.1-py3-none-any.whl", hash = "sha256:e8825ac7074df365f18bc8864242bb3672bc62f19ffc49ad3253113e7e6291f5"},
+    {file = "xmlschema-1.5.1.tar.gz", hash = "sha256:c4c72b457865f46394bb23525b4e233d6537d9e97b8c6144a6cda2d5ef0d6688"},
 ]
 yamllint = [
     {file = "yamllint-1.26.0-py2.py3-none-any.whl", hash = "sha256:8a5f8e442f49309eaf3e9d7232ce76f2fc8026f5c0c0b164b83f33fed1399637"},

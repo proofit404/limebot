@@ -23,7 +23,7 @@ stories-asyncio = "0.1.0"
 stories-marshmallow = "0.1.0"
 uvloop = "0.15.1"
 wtforms = "2.3.3"
-xmlschema = "1.2.3"
+xmlschema = "1.5.1"
 
 [tool.poetry.dev-dependencies]
 bandit = "1.6.2"
